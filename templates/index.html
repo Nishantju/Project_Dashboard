@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#080912">
+    <title>Project Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="dashboard">
+        <header class="hero">
+            <img class="brand-logo" src="{{ url_for('logo') }}" alt="Blue and purple science emblem">
+            <p class="eyebrow">A home for the things I build</p>
+            <h1>Project <span>Dashboard</span></h1>
+            <p class="subtitle">Explore my projects and the ideas behind them.</p>
+        </header>
+
+        <section class="projects" aria-label="My projects">
+            {% for project in projects %}
+            <article class="project-card">
+                <div class="card-top">
+                    <span class="project-number">{{ project.number }}</span>
+                    <span class="card-mark" aria-hidden="true">↗</span>
+                </div>
+                <div class="card-content">
+                    <h2>{{ project.name }}</h2>
+                    <p>{{ project.description }}</p>
+                </div>
+                {% if project.url %}
+                <a class="project-link" href="{{ project.url }}" target="_blank" rel="noopener noreferrer">
+                    Open project <span aria-hidden="true">→</span>
+                </a>
+                {% endif %}
+            </article>
+            {% endfor %}
+        </section>
+
+        <footer class="footer">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>Ideas in motion</span>
+        </footer>
+    </main>
+</body>
+</html>
