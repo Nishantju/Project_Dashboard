@@ -44,7 +44,9 @@
                     {% endif %}
                     <div class="card-details">
                         <h2>{{ project.name }}</h2>
+                        {% if project.description %}
                         <p>{{ project.description }}</p>
+                        {% endif %}
                     </div>
                 </div>
                 {% if project.url %}

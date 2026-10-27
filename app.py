@@ -13,18 +13,18 @@ PROJECTS = [
     },
     {
         "number": "02",
+        "name": "AI-Based Beverage Quality Prediction",
+        "description": "",
+        "image": "/beverage_quality_prediction_logo.png",
+        "image_alt": "Beverage quality prediction and analysis logo",
+        "url": "https://beverage-quality-control.onrender.com",
+    },
+    {
+        "number": "03",
         "name": "CFD Data-Driven Machine Learning Surrogate Model for Stirred Tank Bioreactor",
         "description": "In progress",
         "image": "/bioreactor_cfd_ml_surrogate_logo_icon.png",
         "image_alt": "Stirred tank bioreactor and machine learning logo",
-        "url": "",
-    },
-    {
-        "number": "03",
-        "name": "AI-Based Beverage Quality Prediction Using Theoretical and Machine Learning Models",
-        "description": "In progress",
-        "image": "/beverage_quality_prediction_logo.png",
-        "image_alt": "Beverage quality prediction and analysis logo",
         "url": "",
     },
 ]
