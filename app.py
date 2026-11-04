@@ -27,6 +27,14 @@ PROJECTS = [
         "image_alt": "Stirred tank bioreactor and machine learning logo",
         "url": "",
     },
+    {
+        "number": "04",
+        "name": "AI-Powered Product Distribution & Supply Chain Management System",
+        "description": "In progress",
+        "image": "/AI-Powered Product Distribution & Supply Chain Management System.png",
+        "image_alt": "AI-powered product distribution and supply chain management logo",
+        "url": "",
+    },
 ]
 
 
@@ -53,6 +61,11 @@ def bioreactor_logo():
 @app.get("/beverage_quality_prediction_logo.png")
 def beverage_quality_logo():
     return send_from_directory(app.root_path, "beverage_quality_prediction_logo.png")
+
+
+@app.get("/AI-Powered Product Distribution & Supply Chain Management System.png")
+def supply_chain_logo():
+    return send_from_directory(app.root_path, "AI-Powered Product Distribution & Supply Chain Management System.png")
 
 
 if __name__ == "__main__":
