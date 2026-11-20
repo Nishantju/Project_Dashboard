@@ -17,7 +17,7 @@ PROJECTS = [
         "description": "",
         "image": "/beverage_quality_prediction_logo.png",
         "image_alt": "Beverage quality prediction and analysis logo",
-        "url": "https://beverage-quality-control.onrender.com",
+        "url": "https://beverage-quality-control-ec7m.onrender.com",
     },
     {
         "number": "03",
