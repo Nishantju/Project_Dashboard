@@ -5,6 +5,14 @@ app = Flask(__name__)
 PROJECTS = [
     {
         "number": "01",
+        "name": "Multi-Model Physical-Field Bioprocess Control Dashboard: Coupling Opto-, Electro-, Sono-, and Magnetogenetics for Dynamic Metabolic Steering in Precision Fermentation",
+        "description": "",
+        "image": "/static/Logo@1x.png",
+        "image_alt": "Multi-Model Bioprocess Control Dashboard logo",
+        "url": "https://multi-modal-bioprocess-digital-twin.streamlit.app",
+    },
+    {
+        "number": "02",
         "name": "AI Bottle Detection System",
         "description": "An AI-powered system for detecting bottles.",
         "image": "/ai_bottle_detection_only.png",
@@ -12,7 +20,7 @@ PROJECTS = [
         "url": "https://ai-bottle-detection-system.onrender.com/",
     },
     {
-        "number": "02",
+        "number": "03",
         "name": "AI-Based Beverage Quality Prediction",
         "description": "",
         "image": "/beverage_quality_prediction_logo.png",
@@ -20,7 +28,7 @@ PROJECTS = [
         "url": "https://beverage-quality-control-ec7m.onrender.com",
     },
     {
-        "number": "03",
+        "number": "04",
         "name": "CFD Data-Driven Machine Learning Surrogate Model for Stirred Tank Bioreactor",
         "description": "In progress",
         "image": "/bioreactor_cfd_ml_surrogate_logo_icon.png",
@@ -28,7 +36,7 @@ PROJECTS = [
         "url": "",
     },
     {
-        "number": "04",
+        "number": "05",
         "name": "AI-Powered Product Distribution & Supply Chain Management System",
         "description": "In progress",
         "image": "/AI-Powered Product Distribution & Supply Chain Management System.png",
